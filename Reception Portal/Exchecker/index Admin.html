@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="cs" />
+    <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script src="javascript/Global.js" language="javascript"></script>
+    <script src="javascript/XMLWriter.js" language="javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+
+
+        function WriteTest() {
+            try {
+                var XML = new XMLWriter();
+                XML.BeginNode("Example");
+                XML.Attrib("SomeAttribute", "And Some Value");
+                XML.Attrib("AnotherAttrib", "...");
+                XML.WriteString("This is an example of the JS XML WriteString method.");
+                XML.Node("Name", "Value");
+                XML.BeginNode("SubNode");
+                XML.BeginNode("SubNode2");
+                XML.EndNode();
+                XML.BeginNode("SubNode3");
+                XML.WriteString("Blah blah.");
+                XML.EndNode();
+                XML.Close(); // Takes care of unended tags.
+                // The replace in the following line are only for making the XML look prettier in the textarea.
+                document.getElementById("ExampleOutput").value = XML.ToString().replace(/</g, "\n<");
+            }
+            catch (Err) {
+                alert("Error: " + Err.description);
+            }
+            return false;
+        }
+
+        function WriteForm(e) {
+            try {
+
+                var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+               // var fso = new ActiveXObject("Scripting.FileSystemObject");
+                //var FILENAME = 'D:\\Xml Generator\\xmlfile.xml';
+                //var file = (FILENAME, true);
+              
+                var Frm = Settings.SrcElement(e);
+                var XML = new XMLWriter();
+                XML.BeginNode(Frm.name);
+                XML.Attrib("Example", "Attribute & Value");
+                var Nodes = Frm.elements;
+                for (var i = 0; i < Nodes.length; i++)
+                    XML.Node(Nodes[i].name, Nodes[i].value);
+                XML.EndNode();
+                XML.Close();
+                document.getElementById("ExampleOutput").value = XML.ToString().replace(/</g, "\n<");
+                var xmlfile = XML.ToString().replace(/</g, "\n<");
+                xmlDoc.load("xmlfile.xml");
+                
+            }
+            catch (Err) {
+                alert("Error: " + Err.description);
+            }
+            return false;
+        }
+
+        function LoadXML(xmlFile) {
+            xmlDoc.load(xmlFile);
+            return xmlDoc.documentElement;
+        } //end function LoadXML()
+
+     
+    </script>
+
+
+    <title>Hibernia Networks Dublin Reception</title>
+</head>
+<body>
+    
+    <div id="layout">
+        <div id="header">
+            <center>
+                <h1>
+                    <img src="img/hibernia-networks-logo3.jpg" alt="Hibernia Networks Logo" longdesc="http://www.hibernianetworks.com"
+                        style="position: relative; left: 2px; width: 150px; height: 69px; top: 5px;" /></h1>
+            </center>
+            <!--        <hr class="noscreen" />
+        <hr class="noscreen" />-->
+        </div>
+        <center>
+            <div id="main">
+                <form name="xml" method="post" action="#" onsubmit="return WriteForm(event);">
+
+                <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td>Welcome to International Exchange Centre:</td>
+                <td><input type="text" name="ExchangeCentre" /></td>
+            </tr>
+            <tr>
+                <td>Ongoing Work:</td>
+                <td><input type="text" name="Ongoingwork" /></td>
+            </tr>
+            <tr>
+                <td>Current Building Maintenance:</td>
+                <td>
+                <input type="text" name="currentBuildingmaintenance" />
+                <br />
+                <br />
+                 <input type="submit" value="Test" />
+                </td>
+            </tr>
+        </table>
+                </form>
+                <table>
+                    <tr class="table-top">
+                        <td align="center" valign="middle">
+                            <div style="margin: 15px 0px 0px; display: inline-block; text-align: center;">
+                                <noscript>
+                                    <div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204);
+                                        text-align: center; background-color: transparent;">
+                                        <a href="http://localtimes.info/difference" style="text-decoration: none; font-size: 13px;
+                                            color: rgb(0, 0, 0);">World Clock</a></div>
+                                </noscript>
+                                <script type="text/javascript" src="http://localtimes.info/world_clock2.php?&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=100&ham=1&hbg=1&hfg=0&sid=1&mon=1&wek=0&wkf=0&sep=0&widget_number=21001&lcid=USCA0993,USNY0996,EIXX0014,UKXX0085,INXX0102"></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    </center> </div>
+    <br />
+    <br />
+    Output:
+    <form>
+    <textarea id="ExampleOutput" style="width: 100%" rows="10"></textarea></form>
+    <div id="footer">
+        <div style="clear: both;">
+        </div>
+    </div>
+</body>
+</html>

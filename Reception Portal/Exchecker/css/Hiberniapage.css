@@ -1,0 +1,490 @@
+
+ 
+body {
+
+	}
+ 
+ /*Div CSS Start*/
+
+ .divHome2
+ { 
+     
+  background:White;
+   /*background-color:#062230;;   opacity:10;*/
+   width:71px;/*80px*/
+   height:45px; /*70*/
+   font-size:small; 
+   border-radius: 15px;
+   background-repeat:repeat; 
+   text-align:center;
+   vertical-align:middle;
+  
+  
+ }
+
+    
+ .divHome2:hover 
+ {  
+    
+    cursor:pointer;
+    -webkit-transform: scale(1.02);    
+  	-moz-transform: scale(1.02);      
+  	-ms-transform: scale(1.02);  
+  	 border-radius: 15px;
+
+     }
+ 
+
+    
+
+  .divParts
+ { 
+    width:46px; /*56*/
+    height:46px; /*56*/
+   vertical-align:middle;
+   text-align:center;  
+   border:solid 1px White; /*#062230*/
+   border-radius: 15px;
+ 
+    
+ }
+ 
+
+
+ .divParts:hover 
+ {  
+     
+ 
+     cursor:pointer;
+    -webkit-transform: scale(1.02);     /* Safari & Chrome    background-color:White;*/
+  	-moz-transform: scale(1.02);        /* Firefox */
+  	-ms-transform: scale(1.02);  
+  	 border-radius: 15px;
+  
+
+     }
+   
+     
+.divHome2 a{
+color:Navy;
+border:0px;
+}
+
+/*Div CSS End*/
+
+ /*Page CSS Starts */ 
+ .page
+{
+    width: 1230px;  
+    margin: 0px auto 0px auto;
+    border: 0px solid #496077;
+    background: #165ba1;
+}
+  
+.header
+{
+    position: relative;
+    margin: 3% auto 0px 15%;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    height: 108px;
+}
+
+.ImgLogo
+{
+ height:90%;    }
+ 
+ 
+.title
+{
+   position: relative;
+   left:18%;
+   display: block;
+   text-align:center;
+   vertical-align:middle;
+   
+}
+
+
+ .BackButton       
+     {
+         position: relative;
+         margin: 2% auto 0px auto;
+        display: block;
+     
+        }
+
+  .BackButton:hover
+        {
+   color:Blue; 
+  cursor:pointer;
+  text-decoration:underline;
+        }
+        
+        
+
+.Childtitle
+{
+   position: relative;
+   margin:3% 30% auto 0%;
+   display: block;
+   text-align:center;
+   vertical-align:middle;
+   
+}
+
+.Content
+{   
+    position:relative;
+    margin: 2% auto 0px 5%;
+    width:100%; /*955px;*/
+    float:left;
+    height:auto;
+}
+
+.ContentChild
+{   
+    position:relative;
+    margin: 2% auto 0px auto;
+    width:955px;
+    float:left;
+    height:auto;
+}
+
+ .WeatherandNews
+        {
+        color:Black; 
+        font-size:small;
+       float:left;
+        font-weight: bold;
+        font-family:Calibri;
+        position:relative;
+        margin: 2% auto 0px 8%;     
+                  }
+
+/*Page Css End*/
+      
+     .style3
+        {
+            width: 63%;
+            vertical-align:top;
+            color:Blue;
+        }
+
+	
+	        .style2
+        {
+             color:Black; 
+             text-align:center;
+        }
+        
+           .style2:hover
+        {
+           cursor:pointer;
+            
+        }
+        
+           .adminStyle       
+        {
+             color:Black; 
+             text-align:center;
+             text-decoration:underline;
+        }
+        
+           .adminStyle:hover
+        {
+            color:Blue; 
+            cursor:pointer;
+            text-decoration:underline;
+        }
+        
+        .headerstyle
+        {
+        color:Black; 
+        font-size: large;
+        border-bottom:solid 1px #0099FF; 
+        font-weight: bold;
+        font-family:Calibri;
+        width:auto;
+        }
+        
+        .HorizontalLine
+        {
+        border-top:solid 1px #0099FF; 
+        
+        }
+        
+        .HorizontalLineAboveBelow
+        {
+        border-top:solid 1px #0099FF; 
+        border-bottom:solid 1px #0099FF; 
+        
+        }
+        
+        
+        .Search
+        {
+        background-color:Black;
+        height:38px;
+        text-align:center;
+        vertical-align:middle;
+        
+        }
+        
+        
+        .Hyperlink
+        {
+        color:Blue; 
+        font-size:small;
+        }
+        
+/* End */
+
+
+/* Footer CSS Starts */
+.application-Header {
+	background:#283c46; margin: 0px; padding: 0px; left: 0px; 
+    width: 100%;  
+    position: fixed; z-index: 20;
+    top: 0px;
+    height:auto;
+}
+
+.application-Headerleft {
+	
+	margin: 0px; padding: 0px; left: 20px; 
+    width: 157px;  
+    position: fixed; z-index: 20;
+    top: 0px;
+    height:auto;
+    
+}
+.application-HeaderCenter {
+	
+	margin: 0px; padding: 0px; left: 170px; 
+    width:  auto;  
+    position: fixed; z-index: 20;
+    top: 10px;
+    height:auto;
+}
+.application-Headerright {
+	
+	
+	margin: 0px; padding: 0px; right: 0px;  
+    width: 175px;  
+    position: fixed; z-index: 20;
+    top: 1.5px;
+    height:auto;
+}
+/* DEFAULTS
+----------------------------------------------------------*/
+.application-body{
+	margin: 0px; padding: 0px; left: 0px; 
+    width: 100%;  
+    position:relative;  
+    top: 5px;
+    height: auto;
+}
+/* DEFAULTS
+----------------------------------------------------------*/
+.application-leftMenu{
+	
+	margin: 0px; padding: 0px; left: 100px;
+    width: auto;  
+    position: fixed; z-index: 20;
+    top: 50px;
+    height: auto;
+   
+}
+/* changeing content body DEFAULTS
+----------------------------------------------------------*/
+.application-MainHeader{
+	margin: 0px; padding: 0px; left: 8%;
+    width: 80%;  
+    position: relative; 
+    top: 0px;
+    height:auto;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.application-MainContent{
+	margin: 0px; padding: 0px; left: 100px;
+    width: 80%;  
+    position: relative; 
+    top: 0px;
+    height:auto;
+}
+/* Footer DEFAULTS
+----------------------------------------------------------*/
+.application-footer {
+	background:#062230; margin: 0px; padding: 0px;	left: 0px; 
+	width: 100%; 
+	bottom: 0px; 
+	position: fixed; z-index: 20;
+    height:27px;
+}
+.application-footerleft {
+	 margin: 0px; padding: 0px;	left: 15px; 
+	width: 222px; 
+	bottom: -6px; 
+	position: fixed;
+	 z-index: 20;
+    
+}
+
+.application-footerleft ul{
+color:#8e99a0;
+    width: 181px;
+    margin-top: 0px;
+    height: 15px;
+}
+.application-footerleft ul li {
+list-style: none;
+display: inline;
+    
+}
+.application-footerleft ul li a{
+
+text-decoration: none;
+padding: 10px 5px 10px 5px;
+color: white;
+
+border: 0px solid ;
+font-weight:bold;
+}
+
+.application-footerright {
+	 margin: 0px; padding: 0px; right: 19px; 
+	width: auto; 
+	bottom: -6px; 
+	position: fixed; z-index: 20;
+	
+    
+}
+
+.application-footerright ul{
+font:  calibri;
+color:#8e99a0;
+}
+.application-footerright ul li {
+list-style: none;
+display: inline;
+    
+}
+.application-footerright ul li a{
+
+text-decoration: none;
+padding: 10px 5px 10px 5px;
+color: white;
+border: 0px solid ;
+font-weight:bold;
+}
+
+/*End Footer */
+
+
+
+.application-footerClock { 
+    margin: 0px; padding: 0px;	left: 0px; 
+	width: 100%; 
+	position: relative; z-index: 20;
+    height:50px;
+    top:76%;
+}
+
+.application-footerleftClock {
+	 margin: 0px; padding: 0px;	left: 20%; 
+	width:auto; 
+	bottom: 25px; 
+	/*position: fixed;*/
+	 z-index: 20;
+    
+}
+
+.application-footerCenterLeftClock {
+	 margin: 0px; padding: 0px;	left: 37%; 
+	width: auto; 
+	bottom: 25px; 
+	/*position: fixed;*/
+	 z-index: 20;
+    
+}
+
+
+.application-footerCenterRightClock {
+	 margin: 0px; padding: 0px;	right: 37%; 
+	width: auto; 
+bottom: 25px; 
+	/*position: fixed;*/
+	 z-index: 20;
+    
+}
+
+
+.application-footerrightClock {
+	 margin: 0px; padding: 0px; right: 20%; 
+	width: auto; 
+	bottom: 25px; 
+	/*position: fixed;*/
+	 z-index: 20;
+	
+    
+}
+
+/*--Side bar for clocks--*/
+
+#sidefly {
+	right: -25px;
+	position: fixed;
+	padding: 10px;
+	height: 100%;
+	width: 9%;
+	top: -10px; 
+	background: none repeat scroll 0 0 White;
+	opacity:0.9;
+	}
+ 
+ 
+#Menu-right {
+	
+	position:relative;
+	top:40%;
+	margin-top:-135px;
+	text-align: justify;
+	
+}
+
+#sideflyLeft {
+	left: 0px;
+	position: fixed;
+	padding: 10px;
+	height: 100%;
+	width: 9%;
+	top: -10px; 
+	background: none repeat scroll 0 0 White;
+	opacity:0.9;
+	}
+ 
+ 
+#Menu-Left {
+	
+	position:relative;
+	top:40%;
+	margin-top:-135px;
+	text-align: justify;
+	
+}
+
+.modalbackground
+{
+    position: absolute;
+    z-index: 6000 !important;
+    top: 0px;
+    left: 0px;
+    background-color:White;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+   
+    }

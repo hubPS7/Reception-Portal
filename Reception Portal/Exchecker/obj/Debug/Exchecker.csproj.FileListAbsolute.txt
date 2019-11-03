@@ -1,0 +1,10 @@
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Exchecker\Exchecker\bin\Exchecker.dll
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Exchecker\Exchecker\bin\Exchecker.pdb
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Exchecker\Exchecker\obj\Debug\ResolveAssemblyReference.cache
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Exchecker\Exchecker\obj\Debug\Exchecker.dll
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Exchecker\Exchecker\obj\Debug\Exchecker.pdb
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Reception Portal\Exchecker\bin\Exchecker.dll
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Reception Portal\Exchecker\bin\Exchecker.pdb
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Reception Portal\Exchecker\obj\Debug\ResolveAssemblyReference.cache
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Reception Portal\Exchecker\obj\Debug\Exchecker.dll
+D:\Pankaj Backup\Desktop\Imp Folders\Development\Development 2013\Quater 3\New Project\Reception Portal\Exchecker\obj\Debug\Exchecker.pdb

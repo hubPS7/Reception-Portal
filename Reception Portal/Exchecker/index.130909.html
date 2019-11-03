@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="cs" />
+    <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <title>Hibernia Networks Dublin Reception</title>
+
+    <script language="javascript" type="text/javascript">
+        var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        function loadXML(xmlFile) {
+            xmlDoc.async = "false";
+            xmlDoc.load(xmlFile);
+            xmlObj = xmlDoc.documentElement;
+            //var v = xmlObj.childNodes(3).getAttribute("ExchangeCentre");
+            var v = xmlObj.childNodes(4);
+            window.alert(v);
+            window.alert(xmlObj.xml);//open the entire contents of xml file
+
+
+
+        }
+</script>
+
+
+
+  </head>
+  <body>
+
+    <div id="layout">
+      
+      <div id="header">
+      <center>
+        <h1 ><img src="img/hibernia-networks-logo3.jpg" alt="Hibernia Networks Logo" longdesc="http://www.hibernianetworks.com" 
+                
+                style="position: relative; left: 2px; width: 150px; height: 69px; top: 5px;" /></h1>
+                </center>  
+<!--        <hr class="noscreen" />
+        <hr class="noscreen" />-->
+      </div>
+      <center>
+      <div id="main">
+         <h1>Welcome to International Exchange Centre</h1>
+        <h4><label for="Exchange" id="ExchangeCentre"></label></h4>
+        <p>&nbsp; </p>
+        <h2>Ongoing Work:</h2>
+        <h4><label for="OnGoing" id="OnGoingWork">OnGoingWork</label></h4>
+        <p>&nbsp; </p>        
+        <h2>Current Building Maintenance:</h2>
+        <h4><label for="CurrentBuldng" id="CurrentBuldngMaintenance">CurrentBuldngMaintenance</label></h4>
+        <p>&nbsp;</p>
+        <a href="javascript:loadXML('/Xmlfile/ExchangeCentre.xml');">open a local XML File</a>
+        <table>
+          <tr class="table-top">
+            <td align="center" valign="middle">
+            <div style="margin: 15px 0px 0px; display: inline-block; text-align: center;"><noscript><div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: transparent;">
+            <a href="http://localtimes.info/difference" style="text-decoration: none; font-size: 13px; color: rgb(0, 0, 0);">World Clock</a></div></noscript><script type="text/javascript" src="http://localtimes.info/world_clock2.php?&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=100&ham=1&hbg=1&hfg=0&sid=1&mon=1&wek=0&wkf=0&sep=0&widget_number=21001&lcid=USCA0993,USNY0996,EIXX0014,UKXX0085,INXX0102"></script></div></td>
+          </tr>
+          </table>
+             
+      </div>
+      </center>
+        </div>
+        <div id="footer"><div style="clear: both;"></div></div>
+  </body>
+</html>
